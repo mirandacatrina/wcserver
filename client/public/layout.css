@@ -1,0 +1,386 @@
+@font-face{
+
+    font-family: f1;
+    src: url('averia.ttf');
+}
+
+@font-face{
+
+    font-family: f2;
+    src: url('barlow.ttf');
+
+
+}
+
+@font-face{
+
+    font-family: f3;
+    src: url('wide.ttf');
+
+
+}
+
+.navbar{
+
+    background-color:#264480;
+    padding: 40px;
+    list-style: none;
+  
+    
+}
+
+.navbar a{
+
+    margin: auto;
+    font-family: f3;
+    font-size: 20px;
+    text-decoration: none;
+    color: #DE4967;
+    padding: 10px;
+
+}
+
+.navbar a:hover{
+
+    color: #FF6078;
+    text-decoration: none;
+
+}
+
+.navbar a.active{
+
+    color: #FF6078;
+
+}
+
+h2{
+
+    padding-top: 40px;
+    font-family: f2;
+    color: teal;
+
+}
+
+label{
+
+    font-family: f1;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+div.signup_con{
+
+    background-image: url('bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+}
+
+button{
+
+    background-color:  #146473;
+    color: wheat;
+    float: center;
+    
+}
+
+button:hover{
+
+    background-color: wheat;
+    color: #146473;
+}
+
+button.regbtn{
+
+    border-radius: 10px;
+    
+
+}
+
+button.cancelbtn{
+
+    border-radius: 10px;
+
+}
+
+button.loginbtn{
+
+    border-radius: 10px;
+
+}
+
+input::placeholder{
+
+    font-family: f1;
+    
+}
+
+div.login_con{
+
+    padding: 300px;
+    background-image: url('bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+div.col-md-3{
+
+    border: 3px double teal;
+    padding-left: 20px;
+
+
+
+}
+
+div.form-group-two{
+
+    padding-left: 40px;
+    padding-right: 40px;
+
+    
+}
+
+.home h1{
+
+    font-family: f2;
+    font-size: 70px;
+    color:#DE4967;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+
+}
+
+.home img{
+
+    height: 500px;
+    width: 2000px;
+    
+}
+
+div.home{
+
+    background-color:#5F95CF;
+
+}
+
+div.container_home{
+
+    background-color:#5F95CF;
+   
+}
+
+.container_home h2{
+
+    font-family: f3;
+    font-size: 50px;
+    color: #DE4967;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.container_home td img{
+
+    height: 300px;
+    width: 400px;
+}
+
+td img.latest{
+
+    height: 500px;;
+    width: 700px;
+    
+
+}
+
+table{
+
+    margin: auto;
+
+}
+
+table td{
+    padding: 10px 10px;
+}
+
+.container_home td h5{
+
+    font-size: 1.5em;
+    font-family: f3;
+    
+}
+
+.container_home td h4{
+
+    font-size: 2em;
+    font-family: f2;
+    letter-spacing: 3px;
+    padding-left: 50px;
+}
+
+.container_home td h4:hover{
+
+    color:  #DE4967;
+
+}
+
+.container_home td h5:hover{
+
+    color:  #DE4967;
+    
+}
+
+#footer h6{
+
+    background-color: #264480;
+    font-size: 1.5em;
+    color: #DE4967;
+    padding: 15px 15px;
+    
+}
+
+div.stan{
+    background-color: #5F95CF;
+
+}
+
+.stan img{
+
+    height: 480px;
+    width: 2000px;
+
+}
+
+.members td img{
+
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px 5px #264480;
+    
+    
+
+}
+
+div.members h2{
+
+    font-family: f3;
+    color: #DE4967;
+    font-size: 50px;
+    letter-spacing: 2px;
+
+}
+
+.members td h5{
+
+    font-size: 1.5em;
+    font-family: f1;
+
+}
+
+input.view{
+
+    background-color: #EFB1AC;
+    border: none;
+    color:#264480;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: f1;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px #DE4967;
+  
+}
+
+input:hover{
+    background-color:#264480;
+    color: #DE4967;
+
+}
+
+.news h1{
+
+    font-family: f2;
+    font-size: 100px;
+    color: #DE4967;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+
+}
+
+.news img{
+
+    height: 480px;
+    width: 2000px;
+
+}
+
+div.news{
+    background-color: #5F95CF;
+
+}
+
+.articles td h4{
+
+    font-size: 40px;
+    font-family: f3;
+    padding-left: 60px;
+    color:  #DE4967;
+    text-decoration: none;
+    
+}
+
+.articles td a h4:hover{
+
+    color: #264480;
+}
+
+.articles td img{
+
+    height: 300px;
+    width: 400px;
+    padding-top: 30px;
+    padding: -50px;
+    padding-right: -50px;
+    
+    
+}
+
+td img.new{
+
+    height: 600px;;
+    width: 1300px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+    
+
+}
+
+.articles td h5{
+
+    font-size: 2em;
+    font-family: f3;
+    color:  #DE4967;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 40px;
+    
+}
+
+.articles td a h5:hover{
+
+    color: #264480;
+}
+
+
